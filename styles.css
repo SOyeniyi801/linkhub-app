@@ -103,6 +103,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+    margin: 20px;
 }
 
 .shop-item {
@@ -121,4 +122,15 @@ h1 {
 .shop-item p {
     font-size: 14px;
     color: #000;
+}
+
+@media only screen and (max-width: 430px){
+    .btn{
+        width: 280px;
+    }
+}
+@media only screen and (max-width: 330px){
+    .btn{
+        width: 200px;
+    }
 }
