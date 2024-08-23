@@ -38,6 +38,7 @@ h1 {
     color: #fff;
     cursor: pointer;
     font-size: 16px;
+    margin: 0;
 }
 
 .slider button.active {
@@ -66,14 +67,14 @@ h1 {
     font-size: 16px;
 }
 
- #linksBtn {
-    border-top-left-radius: 40%;
-    border-bottom-left-radius: 40%;
+.slider button:first-of-type {
+    border-top-left-radius: 20px; /* Add border-radius to the left side of the first button */
+    border-bottom-left-radius: 20px;
 }
 
-#shopBtn {
-    border-top-right-radius: 40%;
-    border-bottom-right-radius: 40%;
+.slider button:last-of-type {
+    border-top-right-radius: 20px; /* Add border-radius to the right side of the last button */
+    border-bottom-right-radius: 20px;
 }
 
 .btn:hover {
